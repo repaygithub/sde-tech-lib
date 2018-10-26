@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SDETech" GeneratedClassName="sdetech">
+  <Profiles />
+  <Settings>
+    <Setting Name="api_base_url" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://msg.sdetech.com/messaging.asmx/</Value>
+    </Setting>
+    <Setting Name="send_method_name" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SendSMSFromNumber</Value>
+    </Setting>
+    <Setting Name="confirm_method_name" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">GetPhoneVerification</Value>
+    </Setting>
+    <Setting Name="check_keyword_method" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CheckKeyword</Value>
+    </Setting>
+    <Setting Name="provision_keyword_method" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AddShortCodeKeyword</Value>
+    </Setting>
+    <Setting Name="shorten_link_method" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CreateShortLink</Value>
+    </Setting>
+    <Setting Name="file_store_method" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CreateShortLink2</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
